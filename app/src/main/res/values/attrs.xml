@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OptEditView">
+        <!-- Số lượng ô OTP (kiểu số nguyên) -->
+        <attr name="optLength" format="integer" />
+
+        <!-- Chiều rộng mỗi ô (kiểu kích thước: dp, px) -->
+        <attr name="optCellWidth" format="dimension" />
+
+        <!-- Khoảng cách giữa các ô (kiểu kích thước: dp, px) -->
+        <attr name="distanceBetweenOptCell" format="dimension" />
+
+        <!-- Màu viền khi ô trống -->
+        <attr name="emptyCellColor" format="color" />
+
+        <!-- Màu viền khi ô được focus -->
+        <attr name="focusedCellColor" format="color" />
+        <attr name="filledCellColor" format="color" />
+        <attr name="warningColor" format="color"/>
+        <attr name="isMasked" format="boolean"/>
+        <attr name="markPointColor" format="color"/>
+        <attr name="shape" format="string"/>
+        <attr name="android:topLeftRadius" format="dimension"/>
+        <attr name="android:topRightRadius" format="dimension"/>
+        <attr name="android:bottomRightRadius" format="dimension"/>
+        <attr name="android:bottomLeftRadius" format="dimension"/>
+        <attr name="radius" format="dimension"/>"
+    </declare-styleable>
+</resources>
